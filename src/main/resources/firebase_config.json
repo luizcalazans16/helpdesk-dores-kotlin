@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "helpdesk-dores",
+  "private_key_id": "65be696be82109bcd07376f4fcda9a5e181e6cf0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCiNZPdaQlFJNA4\nm3udZujq2XO6WZSK2qFaDSR9upGxe0maHXid4Fs5ESxRXhnVYw66AqB7dDoIx5NT\nMrMAEE8rV6iC8EGcM54KHrZMslESsmQP7Too+sLhwjoJ7GNDXmpQBEeSc3NNvB8R\njA31hKVEklVb4j1eyCecI6OB6ceYqJRRXLU9zqG0Sdi7nkGVEiWlvIB5fot2X2VI\nG67fTyDc6qki8yMxHtC28QNknVSY2Ol4TjtVS+mbP7NLfocR16k7dGdffSm0KJMd\na6vgnAYxVzNj1p9eQk4F4BANR66yyzJydGdhEfHFPzFD0X5TFy/5/5+2U5dIsKWE\n2B0Y+hRLAgMBAAECggEAAeD7MPkKyL7xg65W9k6r8chwadJCAU4hL1DwQSqPjg3R\n0ocQqUqt4J49Z3kR27uVfvveNJl28J7kxHWiYCS2ngrNlcXg198H/H44xooMNich\nBJQ1WvMonbY2Ha/owgeBolXVjf5oJMuoh0RnIJbKot3LclCCo6q2CfEM73zJn8Mg\nL3B8i3wdSwZM7ZhABI4W8jWqMrmpnSL30/KI2hBF33tQYxh/NCiMBqE2AWvk0rMp\n9PAFPOxLZOinZP7BSpH6igQHfKwKIRaOQvPwLX7A4DG7PRQazwiwofAUcRKt+22x\nJGMYvW6up1bjZfrPaf+fKNmAtSA/fzuHxuiGtudLDQKBgQDY1dPGYRGZWsH3ntSv\nRP3csFptfoxIMX6unAXdWfmp9s/yhJozVfIqCjFm/WQ8PShTtsXeUSQddY+VXP31\nOZV3muIgjj6q3ryHxG9BuBR2nqJP8DHqa0Pr/cTQsNw/efB6s4RtvritWI1BoBKj\nNczceQV+sXJVOzFL/O3Z70oZLQKBgQC/gesTXIhuLvkbdPMdjt8AHVevOkKDWGBf\nFdtXTh57VP5lRcsPRLbBurtISMU0N2gxoOU202nBjoUmt5UlYR8M1gjq0UTVzIYh\nTJNaiGWTozqgm2xbqxggMVjNDVRQmQtbnljH2Pltj407Qoy10AQpDgYu1hX2C4g/\n69ax1eFeVwKBgEaRqL+qfcDMMc52CcAVEw3M81EpW1xvh0wqiRoWG1P+eIT0NP86\nHHskIBnlo8abHNHJ7THCdJ+F0DoLLretiwCHDssLoEeZ//+rpY3c7AQC8s5TXNtv\nF4bpazGELdoWxHYakKHq7U21QRu3jflCHC8wz+IAvDYS8qNJaNuBrjrtAoGAPC/j\nppkdU6u1pLhzs+V0FoAiT7L6tnbvCtM+tUia8d37ee6ea/UHjwlV1NjyCYAkYfyU\nLU/yW9+j31AxMqc8b/dQpCQTAzKdMRf0864MZoMVaOaP/pteILgBlahLyGzhEfFJ\nK734XkOQeoBm4rk2pYR/0vZ7vnFPZ++B8TAr/U8CgYBVHggtHpjA4P9ranIkvHtf\nfpMssfgKgSA0X2khaEoqmCKUO1yBTauMoprZN9QAKbUaxrH9O5Qerq/OYZl0M24I\n6YKArSD4qIQUvEsNwa0e4uB8I90H9KEmhNtP4ZJKJ1P1/tAAYfkq+rnClYAHvjeb\n7VVMFTxmZ5geVh2E0vucow==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-mg1jg@helpdesk-dores.iam.gserviceaccount.com",
+  "client_id": "115724863142181717856",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-mg1jg%40helpdesk-dores.iam.gserviceaccount.com"
+}

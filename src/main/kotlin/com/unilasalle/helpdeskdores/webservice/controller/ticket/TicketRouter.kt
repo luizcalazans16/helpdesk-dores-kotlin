@@ -37,6 +37,7 @@ class TicketRouter {
         accept(MediaType.APPLICATION_JSON).nest {
             PATH.nest {
                 POST("", handler::register)
+                GET("/{ID}", handler::getById)
             }
         }
     }
