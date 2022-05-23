@@ -22,22 +22,22 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-	implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
+	implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
+	//implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+	//implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
 	implementation("org.springdoc:springdoc-openapi-kotlin:1.6.8")
 	implementation("org.springdoc:springdoc-openapi-webflux-ui:1.6.8")
-	implementation("com.google.firebase:firebase-admin:6.13.0")
+	implementation("com.google.firebase:firebase-admin:8.1.0")
+	implementation("io.github.microutils:kotlin-logging:1.12.5")
 
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
-	runtimeOnly("com.h2database:h2")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")

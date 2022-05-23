@@ -9,7 +9,7 @@ class TicketService(
     private val ticketService: TicketRepository,
 ) {
 
-    suspend fun registerTicket(): Ticket {
-        return Ticket()
-    }
+//    suspend fun registerTicket(): Ticket {
+//        return Ticket()
+//    }
 }
