@@ -1,13 +1,14 @@
 package com.unilasalle.helpdeskdores.business.model
 
+import com.google.cloud.firestore.annotation.DocumentId
 import java.util.UUID
 
 data class Ticket(
-
-    val id: UUID,
-    val title: String,
-    val description: String,
-    val priority: TicketPriority
+    @DocumentId
+    val id: String? = "HDT" + UUID.randomUUID().toString(),
+    val title: String? = "",
+    val description: String? = "",
+    val priority: String? = "",
 ) {
 
     enum class TicketPriority {

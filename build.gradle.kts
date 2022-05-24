@@ -34,7 +34,7 @@ dependencies {
 	implementation("org.springdoc:springdoc-openapi-kotlin:1.6.8")
 	implementation("org.springdoc:springdoc-openapi-webflux-ui:1.6.8")
 	implementation("com.google.firebase:firebase-admin:8.1.0")
-	implementation("io.github.microutils:kotlin-logging:1.12.5")
+	implementation("io.github.microutils:kotlin-logging:2.1.21")
 
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")

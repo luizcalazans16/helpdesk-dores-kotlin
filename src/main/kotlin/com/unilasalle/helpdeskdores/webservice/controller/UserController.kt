@@ -22,8 +22,8 @@ class UserController {
         return userService.registerUser(user)
     }
 
-//    @PutMapping("/{id}")
-//    fun update(@PathVariable id: String, @RequestBody user: User) {
-//        return userService.update(id, user)
-//    }
+    @PutMapping
+    fun update(@RequestBody user: User): String {
+        return userService.update(user)
+    }
 }
