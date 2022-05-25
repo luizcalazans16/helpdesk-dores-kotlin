@@ -5,20 +5,18 @@ import com.google.cloud.firestore.Firestore
 import com.google.firebase.FirebaseApp
 import com.google.firebase.FirebaseOptions
 import com.google.firebase.cloud.FirestoreClient
-import java.io.File
-import java.io.FileInputStream
-import java.io.IOException
-import javax.annotation.PostConstruct
 import org.springframework.stereotype.Component
+import java.io.IOException
+import java.io.InputStream
+import javax.annotation.PostConstruct
 
 @Component
 class FirebaseInitializer {
 
     @PostConstruct
     fun initDb() {
-        val file = File("src/main/resources/firebase_config.json")
-        val serviceAccount =
-            FileInputStream(file.absoluteFile)
+        val serviceAccount: InputStream = javaClass.getResourceAsStream("/firebase_config.json") as InputStream
+
         try {
             val options = FirebaseOptions.builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
