@@ -31,8 +31,11 @@ dependencies {
 	//implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
 	//implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	//implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
-	implementation("org.springdoc:springdoc-openapi-kotlin:1.6.8")
-	implementation("org.springdoc:springdoc-openapi-webflux-ui:1.6.8")
+//	implementation("io.springfox:springfox-swagger2:3.0.0")
+//	implementation("io.springfox:springfox-swagger-ui:3.0.0")
+	//implementation("org.springdoc:springdoc-openapi-kotlin:1.6.6")
+	implementation("org.springdoc:springdoc-openapi-ui:1.6.4")
+
 	implementation("com.google.firebase:firebase-admin:8.1.0")
 	implementation("io.github.microutils:kotlin-logging:2.1.21")
 
