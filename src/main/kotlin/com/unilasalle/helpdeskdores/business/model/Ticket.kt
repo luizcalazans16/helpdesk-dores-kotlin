@@ -5,10 +5,11 @@ import java.util.UUID
 
 data class Ticket(
     @DocumentId
-    val id: String? = "HDT" + UUID.randomUUID().toString(),
+    val id: String? = "T" + UUID.randomUUID().toString(),
     val title: String? = "",
     val description: String? = "",
     val priority: String? = "",
+    val applicant: String? = ""
 ) {
 
     enum class TicketPriority {

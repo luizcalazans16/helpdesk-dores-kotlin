@@ -1,21 +1,24 @@
 package com.unilasalle.helpdeskdores.business.service
 
-import com.unilasalle.helpdeskdores.business.db.FirebaseInitializer
 import com.unilasalle.helpdeskdores.business.model.Ticket
-import org.springframework.beans.factory.annotation.Autowired
+import com.unilasalle.helpdeskdores.business.repository.TicketRepository
 import org.springframework.stereotype.Service
+import java.util.UUID
 
 @Service
-class TicketService {
-
-    companion object {
-        private const val TICKET_COLLECTION_NAME = "ticket"
+class TicketService(
+        private val ticketRepository: TicketRepository
+) {
+    fun findById(id: String): Ticket {
+        return ticketRepository.findById(id) ?: throw Exception()
     }
 
-    @Autowired
-    private lateinit var firebaseInitializer: FirebaseInitializer
-    fun registerTicket(ticket: Ticket): Ticket {
-        val firebaseDb = firebaseInitializer.getFirebase()
-        ticket.id?.let { firebaseDb?.collection(TICKET_COLLECTION_NAME)?.document(it)?.set(ticket) }
+    fun findByUserId(userId: UUID): Ticket {
+        return ticketRepository.findByUserId(userId) ?: throw Exception()
     }
+
+    fun registerTicket(ticket: Ticket): String {
+        return ticketRepository.registerTicket(ticket)
+    }
+
 }

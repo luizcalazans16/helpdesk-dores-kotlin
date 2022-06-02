@@ -1,4 +1,7 @@
 package com.unilasalle.helpdeskdores.business.repository
 
-interface CategoryRepository {
+import org.springframework.stereotype.Repository
+
+@Repository
+class CategoryRepository {
 }
