@@ -2,6 +2,7 @@ package com.unilasalle.helpdeskdores.webservice.controller
 
 import com.unilasalle.helpdeskdores.thirdparty.LoginService
 import com.unilasalle.helpdeskdores.thirdparty.model.LoginRequest
+import com.unilasalle.helpdeskdores.thirdparty.model.LoginResponse
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
@@ -16,7 +17,7 @@ class LoginController {
     private lateinit var loginService: LoginService
 
     @PostMapping
-    fun login(@RequestBody loginRequest: LoginRequest) {
-        loginService.sendLoginRequest(loginRequest)
+    fun login(@RequestBody loginRequest: LoginRequest): LoginResponse? {
+        return loginService.sendLoginRequest(loginRequest)
     }
 }

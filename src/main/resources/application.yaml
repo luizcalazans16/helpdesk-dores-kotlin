@@ -10,8 +10,6 @@ spring:
 server:
   port: ${PORT:8080}
 
-http.config:
-  readTLL: 30000
-  connectTLL: 5000
-  maxConnTotal: 400
-  maxConnPerRoute: 100
+restclient:
+  readtimeout: 25000
+  connecttimeout: 15000

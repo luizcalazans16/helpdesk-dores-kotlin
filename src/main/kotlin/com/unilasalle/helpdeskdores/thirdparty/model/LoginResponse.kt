@@ -1,6 +1,6 @@
 package com.unilasalle.helpdeskdores.thirdparty.model
 
-data class TokenResponse(
+data class LoginResponse(
     val kind: String,
     val localId: String,
     val email: String,
