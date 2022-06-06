@@ -2,5 +2,14 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://www.googleapis.com/service_accounts/v1/jwk/securetoken%40system.gserviceaccount.com
 server:
   port: ${PORT:8080}
+
+restclient:
+  readtimeout: 25000
+  connecttimeout: 15000
